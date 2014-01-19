@@ -33,3 +33,5 @@ alias la='ls -lAh'
 
 alias afind='ack-grep -il'
 
+# Load aliases
+source $HOME/.aliases
