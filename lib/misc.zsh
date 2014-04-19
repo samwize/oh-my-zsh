@@ -13,8 +13,3 @@ export PAGER="less"
 export LESS="-R"
 
 export LC_CTYPE=$LANG
-
-# To fix ruby/gem/rake issue with encoding
-export LANG=en_US.UTF-8
-export LANGUAGE=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
