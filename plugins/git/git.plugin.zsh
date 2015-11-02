@@ -40,6 +40,14 @@ function work_in_progress() {
   fi
 }
 
+# JD: Added for Add, Commit and Push in 1 command
+# Usage: `gacp "commit message`"
+function gacp() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+
 #
 # Aliases
 # (sorted alphabetically)
