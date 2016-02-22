@@ -43,9 +43,14 @@ function work_in_progress() {
 # JD: Added for Add, Commit and Push in 1 command
 # Usage: `gacp "commit message`"
 function gacp() {
+    gac()
+    git push
+}
+
+# Add and Commit (no Push)
+function gac() {
     git add .
     git commit -a -m "$1"
-    git push
 }
 
 #
