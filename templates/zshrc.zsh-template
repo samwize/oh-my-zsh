@@ -50,7 +50,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
 # JD: My default plugins
-plugins=(git osx python sublime z)
+plugins=(git osx python sublime z docker docker-compose pod)
 
 # User configuration
 
