@@ -90,5 +90,3 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/Workspace/goapps/go_appengine"
 export GOPATH="$HOME/Workspace/go"
 export PATH="$PATH:$GOPATH/bin"
-export LOLCOMMITS_DIR="~/lolcommits"
-export LOLCOMMITS_DIR="$HOME/lolcommits"
