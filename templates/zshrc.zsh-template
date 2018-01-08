@@ -92,3 +92,5 @@ export GOPATH="$HOME/Workspace/go"
 export PATH="$PATH:$GOPATH/bin"
 export LOLCOMMITS_DIR="~/lolcommits"
 export LOLCOMMITS_DIR="$HOME/lolcommits"
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
