@@ -26,4 +26,6 @@ function git_delete_branch() {
   git push origin --delete "$1"
 }
 
+alias gacp2='gacp "$(curl -s whatthecommit.com/index.txt) 🤖"'
+
 ################################################################################
