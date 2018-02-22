@@ -27,5 +27,6 @@ function git_delete_branch() {
 }
 
 alias gacp2='gacp "$(curl -s whatthecommit.com/index.txt) 🤖"'
+alias gac2='gac "$(curl -s whatthecommit.com/index.txt) 🤖"'
 
 ################################################################################
