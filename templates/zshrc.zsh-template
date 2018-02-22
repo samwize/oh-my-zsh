@@ -52,7 +52,7 @@ DISABLE_AUTO_UPDATE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
 # JD: My default plugins
-plugins=(git osx python sublime z docker docker-compose pod)
+plugins=(git osx python sublime z docker docker-compose pod custom)
 
 source $ZSH/oh-my-zsh.sh
 

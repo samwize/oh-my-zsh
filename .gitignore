@@ -1,7 +1,8 @@
+# JD: No longer ignored. /custom use for my own customization and is tracked
 # custom files
-custom/
-!custom/plugins/example
-!custom/example.zsh
+# custom/
+# !custom/plugins/example
+# !custom/example.zsh
 
 # temp files directories
 cache/
