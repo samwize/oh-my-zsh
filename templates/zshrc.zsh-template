@@ -94,7 +94,14 @@ export LOLCOMMITS_DIR="$HOME/Pictures/lolcommits"
 export PATH="$HOME/.fastlane/bin:$PATH"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+export DELIVER_USER="choppa@just2us.com"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias fl="fastlane"
+alias flb="fastlane bump"
+alias fld="fastlane deliver"
+alias fldm="fastlane deliver_metadata"
+alias flds="fastlane deliver_screenshots"
